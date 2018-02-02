@@ -6,4 +6,5 @@ server.host: ${SERVER_HOST:0}
 elasticsearch.url: ${ELASTICSEARCH_URL:http://elasticsearch:9200}
 elasticsearch.username: ${ELASTICSEARCH_USER:elastic}
 elasticsearch.password: ${ELASTICSEARCH_PASS:elastic}
-xpack.monitoring.ui.container.elasticsearch.enabled: ${XPACK_ENABLED:false}
+xpack.security.enabled: ${XPACK_ENABLED:false}
+xpack.monitoring.ui.container.elasticsearch.enabled: ${XPACK_UI_MON_ENABLED:false}
