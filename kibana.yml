@@ -1,8 +1,9 @@
 ---
 # Default Kibana configuration from kibana-docker.
 
-server.name: ${SERVER_NAME:kibana-host.local}
-server.host: ${SERVER_HOST:kibana-host.local}
+server.name: ${SERVER_NAME:kibana.host.local}
+server.host: ${SERVER_HOST:kibana.host.local}
 elasticsearch.url: ${ELASTICSEARCH_URL}
 elasticsearch.username: ${ELASTICSEARCH_USER:elastic}
 elasticsearch.password: ${ELASTICSEARCH_PASS:elastic}
+path.data: ${DATA_DIR:/data}
