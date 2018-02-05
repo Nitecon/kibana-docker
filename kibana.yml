@@ -3,6 +3,6 @@
 
 server.name: ${SERVER_NAME:kibana}
 server.host: ${SERVER_HOST:kibana-host.local}
-elasticsearch.url: ${ELASTICSEARCH_URL:http://elasticsearch:9200}
+elasticsearch.url: ${ELASTICSEARCH_URL}
 elasticsearch.username: ${ELASTICSEARCH_USER:elastic}
 elasticsearch.password: ${ELASTICSEARCH_PASS:elastic}
